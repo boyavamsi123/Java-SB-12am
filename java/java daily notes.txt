@@ -1,0 +1,1160 @@
+27.01.2025 : MONDAY
+-----------------------
+
+What is Java?
+---------------
+Java is a programming language and computing platform, first released by Sun Microsystems in 1995. 
+It has grown from humble beginnings to power much of today's digital world by providing a reliable 
+platform upon which many services and applications are built.
+
+how to download java software:-
+--------------------------------
+Step 1: Click on the “Download Java” icon as shown in the image below.
+Step 2: Now you can see the latest version is JDK 23 and there are options for Linux, macOS, and Windows.
+Click on the Windows option and then click the x64 Installer option to download the .exe file for 64-bit Windows OS
+
+scripting programming language:-
+---------------------------------
+js
+ex:-test.js
+console.log("Hello World");
+>node test.js
+
+ts
+vb
+perl
+shell
+python
+
+functional programming language:-
+-----------------------------------
+c
+ex:-test.c
+python
+ex:-test.py
+def main():
+print("Hello world")
+main()
+>py test.py
+
+oops:-
+
+c++
+java
+
+ex 1:-test.java
+
+public class test{
+public static void main(String[] args){
+System.out.println("Hello,World");
+}
+}
+
+>javac test.java
+>java test
+ Hello,world
+ 
+Ex 2:-Test.java
+
+class A{
+    public static void main(String[] args){
+        System.out.println("Hello...");
+    }
+}
+class B{
+    public static void main(String[] args){
+        System.out.println("Hi...");
+    }
+}
+class C{
+    public static void main(String[] args){
+        System.out.println("How are you...");
+    }
+}
+class D{
+    public static void main(String[] args){
+        System.out.println("Fine...");
+    }
+}
+
+>javac Test.java
+>java A
+ Hello...
+>java B
+ Hi...
+>java C
+ How are you...
+>java D
+ Fine...
+ 
+ 28.01.2025 : TUESDAY
+--------------------------------- 
+1) if class is public class name & file name should be same;
+2) Non-static variable method can't ref in static context 
+3) Incompatible Types
+EX:-
+
+CMD>javac Test.java
+    java Test
+	
+	
+public class Test{
+    
+     public static void main(String[] args){
+        int eid=101;
+        String ename="Rahul";
+        double esal=45000.45;
+        char avail='y';
+        float price=35.35f;
+        System.out.println(esal);
+        System.out.println(ename);
+     }
+}
+
+>javac Test.java
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>java Test
+45000.45
+Rahul
+
+------------------------------------------------------------
+
+
+public class Test{
+    public static void login(){
+        System.out.println("Login Successfully...");
+    }
+    public static void main(String[] args){
+        login();
+    }
+}
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>javac Test.java
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>java Test
+Login Successfully...
+
+-------------------------------------------------------------------
+
+class one{
+    public static void main(String[] args){
+        String firstName = "John";
+        String lastName = "Doe";
+        String fullName = firstName+lastName;
+        System.out.println(fullName);
+    }
+}
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>javac one.java
+
+D:\Java-SB-12am-Batch\28.01.2025\class-1>java one
+JohnDoe
+-----------------------------------------------------------------
+Data type related keyword:-
+----------------------------------------------
+
+byte,short,int,long
+float,double
+char
+boolean
+
+Reserved leterel keyword:-
+-------------------------------------------------
+true
+false
+
+control flow statements:-
+--------------------------------------------------
+
+if,else
+for,while,do
+break,continue
+switch,case,breake,default
+
+public
+private
+protected
+default
+static
+abstract
+---------------------------------------------------------
+29.01.2025
+--------------------------------------------------------
+
+public class Product{
+    public static void main(String[] args){
+        int Price = 299;
+        String p_Name = "Mens Check Shirt";
+        String brand = "TECK";
+        double rating = 4.3;
+        long mobile = 9346148860l;
+
+        System.out.println(Price);    
+        System.out.println(p_Name); 
+        System.out.println(brand);
+        System.out.println(rating);
+        System.out.println(mobile);
+    }
+}
+
+D:\Java-SB-12am-Batch\29.01.2025\class>javac Product.java
+
+D:\Java-SB-12am-Batch\29.01.2025\class>java Product
+299
+Mens Check Shirt
+TECK
+4.3
+9346148860
+-----------------------------------------------------------------
+
+primitive Datatype:-
+-----------------------
+byte
+short
+int
+long
+
+Ref Data Type:-
+------------------------
+String
+String Buffer
+String Builder
+AL
+Array
+
+Usre Defined
+
+Employee
+Account
+User
+Person
+------------------------------------------------------------------------
+public class TestThree{
+     public static void main(String[] args){
+        String[] sizes={"s","m","l","xl"};
+        int[] eids={101,102,103,104};
+        String[] enames={"Rahul","Soniya","Priya"};
+        String ename="Rahul Gandhi";
+
+        System.out.println(sizes);  //address of obj
+        System.out.println(ename);  //Rahul
+        System.out.println(eids);   //Object of Obj
+        System.out.println(enames); //Object Of Obj
+     }
+}
+--------------------------------------------------------------------------
+D:\Java-SB-12am-Batch\29.01.2025\class>javac TestThree.java
+
+D:\Java-SB-12am-Batch\29.01.2025\class>java TestThree
+[Ljava.lang.String;@372f7a8d
+Rahul Gandhi
+[I@2f92e0f4
+[Ljava.lang.String;@28a418fc
+
+-----------------------------------------------------------------------------
+30.01.2025
+-------------
+                           method
+						   -------
+			  static method     instance method
+
+                           variable
+						   ---------
+		instance var       static var    local var
+		
+-variable value is varied from object to object
+-
+
+-variable  value is not varied from object to object
+-only one copy will created and shared to all objects
+-class level variables
+-static keyword
+
+class-it is the collection of methods,objects,variables
+----------------------------------------------------------
+31.01.2025-Friday
+-----------------
+
+java variables:-
+*instance
+*static 
+*local
+-----------------------------------------------------------------
+instance:
+
+-if variable value is varied from object to object
+-seporate copy will create for every object
+-how to access?
+ using object
+-scope with in object
+-object level variable
+-------------------------------------------------------------------
+static:
+
+- if var value is not varied from object to object
+-ony one copy will create & shared to all object
+-how to access?
+ a.using class name
+ b.using object
+ c. in static context
+-class level
+-class level variable
+
+java operators:
+
+java Arrays:
+
+java controlflow statements:
+-conditional flow statements:-
+-----------------------------
+if
+if else
+switch
+case
+break
+default
+-iterative flow statements:-
+-----------------------------
+for loop
+while loop
+do while loop
+for each loop
+----------------------------------------------------------------------------
+03.02.202-MONDAY
+------------------
+data types:
+byte  1byte-8byte     0
+short  2byte          0
+int    4byte          0
+long     8
+float    4
+double   8
+char
+boolean
+
+1.non static member:
+-----------------
+variable 
+method
+->con't ref from static context
+
+2.public ->filr name
+3.type casting error
+
+Arithmatic operator:
+
+ralational operator: <  >
+                     <= >=
+logicla operator: && ||
+equalty operator: ==  !=
+Assignment & compound 
+Assignment operator   : 
+
+
+
+
+Forms of operator:-
+Unary Operator:-
+An operator that works only one operand is called as unary operator
+Ex:-a++ or a-- or b++ or b-- or --a or --b
+Binary operator:-
+An operator that works with two operands is called as binary operator
+Ex:-a+b,a-b,a*b,a/b etc...
+Ternary Operator:-
+An operators that works with three operands or expression.(a>b)?a is big : b is big
+
+Logical Operators:-
+A     B      A&&B      A||B 
+T     T       T         T
+T     F       F         T
+F     T       F         T
+F     F       F         F
+
+
+public class Test{
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        float c=30.5f;
+        System.out.println("The number of addition a and b is: "+(a+b)); //30
+        System.out.println("The number of addition a and c is: "+(a+c)); //40.5
+    }
+}
+
+public class TestOne{
+    public static void main(String[] args){
+        int a=10;
+        String ename="Rahul";
+        System.out.println(a+ename); //10Rahul
+        System.out.println(ename+a); //Rahul10
+        System.out.println(ename+"Gandhi"); //RahulGandhi
+    }
+}
+-------------------------------------------------------------------------------------------
+04.02.2025-Tuesday
+------------------
+controll flow statements:
+
+conditional statements:-
+------------------------
+1.if
+Ex:-
+int sal=45000;
+if(sal>40000){
+
+}
+2.if else
+3.switch
+ case
+ break
+ default
+4.ternary ?
+iterative flow statements:-
+--------------------------
+1.for
+2.while
+3.do while
+4.for each
+
+05.02.2025
+----------
+when to use for loop ?
+when to use while loop ?
+
+iterative flow statements:-
+--------------------------
+1.for
+2.while
+syntax:-
+while(condition st){
+//st1
+//st2
+incre/decre
+}
+
+3.do{ 
+    }while
+4.for each
+
+06.02.2025:-
+-----------
+what is the array:-
+group of  elements an one entity
+
+1.declaration
+
+int[] eids;
+String[] enames;
+char[] evail;
+
+2.creation
+
+eids[] = new int[3];
+enames = new String[3];
+
+3.initialization
+
+eids[0] = 101;
+eids[1] = 102;
+eids[2] = 103;
+
+4.declaration,creation,initialization in one line
+
+int[] eids = {101,102,103};
+
+07.02.2025
+------------
+
+java array:-
+- group of elements as are one entity
+- allowed homogeneous / similar elements
+- allowed duplicated
+- array elements re string based an indexing
+- nagitive indexing not posible
+- insertion order maintained
+- array fixed nature  once array created we can't add new element & delete element
+
+iterative object:-
+
+create
+
+int[] eids={101,102,103};
+int eids; // declaration
+eids = new int[3]; //creatrion
+eids[0]=101;
+eids[1]=102;
+eids[2]=103;
+
+read
+
+//how to read array elements indexing
+System.out.println(eids);
+System.out.println(eids[0]);
+System.out.println(eids[1]);
+System.out.println(eids[2]);
+System.out.println(eids[3]); //Runtime exception 
+
+update
+
+eids[2]=205;
+System.out.println(eids[2]); //205
+
+delete
+
+- add new element x
+- delete new element x
+
+note: once array created, we can't increase size & decrease size 
+
+print display only even/odd no?
+print sum of array elements?
+
+10.02.2025:
+----------
+package:-It is an mechanism to group related classes and interfaces
+into a single module.
+
+
+ecom:
+
+User
+Product
+order
+py
+
+package com.appabasic.bookphotoframes;
+
+import java.util.Random;
+
+import android.content.context;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+
+public class ImageFilters{
+Context Context;
+public
+}
+
+package:-It is an mechanism to group related classes and interfaces
+into a single module.
+
+The main purpose is
+1)improve the modularity
+2)provide security
+3)To resolve naming conflicts
+
+>javac -d . Test.java
+ -d - destination
+ . - current working dir
+
+access modifiers
+
+class modifiers - public final abstract strict default
+
+class A{}
+-whether our class can accessed from any where or not?
+-whether child class creation is possible for our class or not?
+-where instanciation is possible or not?
+
+A a = new A()
+
+class method variable	
+
+
+public:-
+------
+final
+abstract
+strict floating point is a top level
+
+Applicable modifier for top level classes :
+
+public
+default
+final
+abstract
+strict floating point
+------------------------------------------------------------
+method level modifier classes:
+-----------------------------
+public
+private
+protected
+default
+final
+abstract
+static
+synchronized
+
+Test.java
+
+private class Test{}
+
+error: modifier private not allowed here
+----------------------------------------------------------------------------
+
+Test.java
+
+public  class Demo{}
+
+error: class Demo is public, should be declared in a file named Demo.java
+----------------------------------------------------------------------------
+
+Test.java
+
+public strictfp final abstract  class Test{}
+
+ error: illegal combination of modifiers: abstract and final
+public strictfp final abstract  class Test{}
+                                ^
+Test.java:1: warning: [strictfp] as of release 17, all floating-point expressions are evaluated strictly and 'strictfp' is not required
+public strictfp final abstract  class Test{}
+                                ^
+1 error
+1 warning
+
+Note: class level access modifiers are 
+
+public - we can access from anywhere
+default - with in the current package
+strictfp - 
+final 
+abstract
+
+final modifiers:
+final is modifier applicable for classes, methods and variables
+final class A{}
+
+class A{
+finalvoid display(){}
+}
+
+class A{
+final int a = 100;
+}
+
+11.02.2025
+----------
+
+Inner class Level - access modifiers
+------------------------------------
+public 
+private
+protected
+final
+Strictfp
+abstract
+static
+
+Top class - Level access modifiers
+-----------------------------------
+public
+default
+final
+abstract
+strictfp
+
+final modifiers:
+----------------
+final modifier applicable for class , methods and variables.
+
+final class Outer{
+final void m1(){
+final int x=100;
+}
+}
+
+
+
+---------------------------------------------------------------------------------------------
+If method declared as the final then we are not allowed  to override the method child classes:
+
+class parent{
+final void display(){}
+}
+class child extends parent{
+void display(){
+}
+}
+
+javac Test.java
+Test.java:5: error: display() in child cannot override display() in parent
+void display(){
+     ^
+  overridden method is final
+1 error
+--------------------------------------------------------------------
+if a class declared as final then we can't create child classes.
+
+Inheritance:
+-we want use existing feature.
+-adding new feature.
+--------------------------------------------------------------------
+final class Parent{}
+class child extends Parent{}
+
+ javac Test.java
+Test.java:2: error: cannot inherit from final Parent
+class child extends Parent{}
+                    ^
+1 error
+---------------------------------------------------------------------
+final class A{
+void m1(){}
+void m2(){}
+}
+
+Note:Every method parent inside a final class is always final by default.
+but every variable present inside a final need not be final
+
+Main Advantage : we are achiving security as no one is allowed change our logic or implimentation.
+Dis Advantage : we are loosing inheritance & polymorphism
+
+abstract: abstract modifier applicable for classes and method but not for variable.
+
+final   : Talk about implimentation
+abstract: Never Talks about implimentation
+
+abstract method:
+
+int display():  - implimentation is available.
+int display():  - No implimentation
+
+Top class:-
+----------
+public  :-
+
+default :-
+
+abstract:- never talks about implementation abstract class abstract method	
+         - method,class
+		 
+		 class Test{
+		 abstract void m1();    //m1 means display    (main objective as interface)
+		 }
+		 
+		 - child class is responsible
+		 
+    interface:- 100% abstract classes
+	----------------------------------
+	Any service requirement specification(SBR) is consider as interface.
+	
+	Adv:
+        - we can achieve security. we are not highliting our internal implementation
+		
+		interface Test {
+		void m1();
+		void m2();
+		}
+		
+	enhancement will become easy.
+
+	Two different system are communicating.
+		 
+		 interface Test{
+		     void m1();
+			 void m2();
+		}
+		
+	class to class - extends
+    class to interance - implements
+
+    extends vs implement
+	
+1.an class can extends only one class at time.
+	
+	class p{}
+	
+	class c extends p{}	
+
+2.a class can implements any no of interfaces at a time.
+	
+	interface A{}
+	interance B{}
+	class Test implements A, B{
+
+    }	
+	
+abstract class Test{
+abstract void m1();
+abstract void m2();
+void m3(){}
+}
+abstract class child extends Test{
+void m1(){}
+void m2(){}
+}
+
+3.a class can extend a class and can implements n no of interfances.
+
+interface A{}
+interface B{}
+
+class Test{}
+class Demo extends Test implements A,B{}
+
+4.an interface can extends n no of interfaces at a time.
+
+
+
+strictfp:- float,double use this one
+
+final   :- class,method,variable
+
+1.an class can extends only one class at time.
+2.a class can implements any no of interfaces at a time.
+3.a class can extend a class and can implements n no of interfances.
+4.an interface can extends n no of interfaces at a time.
+
+interface A{
+    void m1();
+    public abstract void m2(); 
+}
+class Test implements A{
+    public void m1(){}
+    public void m2(){}
+}
+//wheather we are declared or not every interface method is by default -
+// it is abstract and public
+
+interface variable:-
+--------------------
+
+interface A{
+    int x = 10;
+}
+class Demo implements A{
+    
+    public static void main(String[] args) {
+        System.out.println(x);
+    }
+}
+
+/*
+Note1:interface method - public and abstract
+Note2:interface variable - public, fianl, static
+*/
+
+public : To make variable available for every implementation class.
+static : without existing object , we are going to access.
+final  : implementation class can access variable, but not modify.
+
+=====================================================================
+class extends a class
+class implements interface's
+
+abstract class A{
+abstract void m1();
+public final int x = 100;
+}
+class B extend A{
+public void m1(){}
+public static void main(String[] args){
+B b = new B();
+System.out.println(b.x);
+}
+}
+
+14.02.2025
+----------
+final class - we cant create child classes [final class not in inheritance process]
+
+method      - if method is final we cant override
+method overload:-
+-----------------
+class Employee{
+public  void login(String name){
+
+}
+public void login(String name, boolean flag){
+
+}
+}
+-----------------------------------------------
+method override:-
+---------------
+class parent{
+public void getGoodQualiting(){
+System.out.println("parent class-method - getGoodQualiting")
+}
+class child extends parent{
+public void getGoodQualiting(){
+System.out.println("child class-method - getGoodQualiting")
+}
+public static void main(string[] args){
+parent p1 = new parent();
+    p1.getGoodQualiting();
+    child c1 = new child();
+}
+}
+}
+
+
+using final keyword:-
+--------------------
+class Account{
+    final int min_Bal=500;
+
+    public static void main(String[] args) {
+        Account a1 = new Account();
+        System.out.println(a1.min_Bal);//500
+        a1.min_Bal=600; //cannot assign a value to final variable min_Bal
+        System.out.println(a1.min_Bal);//600
+    }
+}
+
+---------------------------------------------------------------------------
+variable    - 
+
+class - if class is abstract; we cant create object.
+method - only declaration;
+
+class Test{
+
+}
+object creation possible
+
+abstract class Test{
+
+}
+
+class user{
+public abstract void login();  //only declaration no implementation
+public forgetpassword(){} //concrete method
+}
+
+note: if class contains abstract one abstract method;
+      then class should be declared as declared as abstract.
+	  
+note: abstract class contains 
+      1.Zero or more abstract methods
+	  2.abstract methods + concrete method
+
+
+
+===============================================================================
+oops:-object oriented programing 
+---------------------------------
+1.class
+2.method signature
+3.this
+4.object
+
+class:- is template to construct object 
+      - once class there - we can as many object with help of new keywords.
+		
+object oriented programing 
+class
+this 
+constructor
+Method Signature
+
+overriding 
+overloading
+
+Data Hiding 
+Abstract
+Inheritance
+polymorphism
+   
+
+what is data giding?
+-hiding of data, so that outside person cant access our data directly.
+-by using private modifiers we can implement data hiding.
+
+class Test{
+    private int id = 101;
+}
+ 
+The main advantage of data hiding feature we can achieve security.
+
+Abstraction:
+
+Inheritance:
+
+class parent{}
+class child extends parent{}
+
+The main advantage of inheritance is code reusability.
+
+
+final : final means implementation.
+
+Abstract : abstract means there are no implementation.
+
+-final class
+ we cant create child classes
+ i.e: not perticipate in inheritance
+ 
+  class A{
+  }
+  class B extends A{
+  }
+  
+  it is posible
+ -------------------------------------
+-fianl method also
+ if method declared as final method overridding 
+ is not possible
+ 
+ final variable
+ final int x=100;
+ 
+  final class A{
+  }
+  class B extends A{
+  }
+	
+  it is not possible	
+  
+  
+Abstract:- persial implementation
+
+note: abstract methods no method body only declaration
+
+note: if class contains atleast one abstract method class should be 
+      declared as abstract
+	  
+note: abstract class contains zero or more abstract methods.
+
+note: if class extending abstract class we have to provide implementation
+      for abstract methods
+--------------------------------------------------------------------------------
+18.02.2025
+-------------
+Interface:-   defines the methods a class must implement.
+-----------
+Abstract method
+default
+static
+variable
+nested interface
+-----------------------------------------------------------------------
+19.02.2025
+-----------
+1.what is OOPs?
+---------------
+ OOP(object oriented Programming) is a Programming paradigm based on the 
+ concept of "object".
+ --------------------------------------------------------------------------
+2.what are the principles of OOPs?
+----------------------------------
+1.Inheritance
+2.Encapsulation
+3.Polymorphism
+4.Abstraction
+--------------------------------------------------------------------------
+3.Programming languages that follow OOPs?
+-----------------------------------------
+
+4.Is java object oriented Programming language or object based Programming
+  language?
+5.Is java pure 100% object oriented Programming language?
+
+Inheritance:-
+
+1. what is Inheritance? (super class, sub class)(parent class, child class)
+-----------------------
+Inheritance is a mechanism in which one class aquires all the properties 
+and behaviurs of another class with the specific relationship.
+-------------------------------------------------------------------------
+2.types of Inheritance?
+----------------------
+-multi level inheritance
+-multiple inheritance
+--------------------------------------------------------------------------
+3.implementation of Inheritance with class?
+4.implementation of Inheritance with Inheritances?
+------------------------------------------------------------------------
+5.super keyword?
+-----------------
+The superkeyword in Javarefers to the immediate parent class of a 
+subclass.
+-----------------------------------------------------------------------
+20.02.2025
+-----------
+OOPs: Object Oriented Programming Langauage
+-------------------------------------------
+Types of oops:
+
+Inheritance
+Encapsulation
+polymorphism
+Abstractions
+
+What is the inheritance:
+
+class:-
+-class is a type
+-class is a template
+-class is a plan
+-class is a design to constructor objects.
+
+this:- this is a pointer to currect object to access class method in side a class.
+---------------------------------------------------------------------------------------
+
+24.02.2025
+----------
+Inheritance:
+------------
+Reusing Exesting functionalality & adding new features
+or
+Inheritance properties from parent class to child class
+
+Java supported
+----------------------------
+single Inheritance
+Multilevel Inheritance
+Hybrid & Hyrarchical
+
+exept multiple inheritance
+
+
+java 1.8 features: consice code 
+-------------------
+1. FI - sum abstract method
+      - single abstract method
+	  
+2. @FI - To restrict FI
+
+3. ()->{} - Lambda Exp
+
+4.Predefined FI ?
+ function     | Consumer
+ BiFunction   | suppier
+ Predicate    |
+ Bipredicate  |
+ 
+5. Interface Enhancements
+    1. default methods
+    2. static methods
+
+6. Date & Time
+
+7. Optinal Class
+
+8. Stream API
+
+9.  :: [double color OP]
+11. JS-Engine
+
+Interface:
+-abstract methods
+-default methods
+-static methods
+
+what is interface:
+
+public interface circle{
+//abstract method
+public abstract void m1();
+public abstract void m2();
+}
+
+
+Functional programming?
+
+Functional interface?
+SAM - Single Abstract Method
+
+Functional Interface - is interface which contains a SAM is called Functional Interface.

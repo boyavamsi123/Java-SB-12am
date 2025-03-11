@@ -1,0 +1,31 @@
+How to handle Exception?
+How to handle checkedExceotion?
+what is CheckedException?
+
+what is meaning dependes?
+read file
+invoke apis
+
+try{} - Risky Code
+catch{} - Handle code 
+finally{} - Mondatory code
+throw - throw the user defined Exception
+throws - ignore Exception
+
+Exception 
+CheckedExceotion    - compile time Exception
+--------------------------------------------
+FNFEx
+Ioex
+sqlex
+UserDefinedEx
+--------------------------------------------
+
+UncheckedException  - runtime Exception
+-------------------------------------------
+AE
+NFE
+NPE
+AIOBSEX
+CCE 
+CNF
