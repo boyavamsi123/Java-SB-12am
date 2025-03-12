@@ -1,0 +1,76 @@
+what is a collections?
+-------------------------------------------------------------------------
+Collections is a framework provided by java.
+
+This framework provides many interfacesand their implemented classes in 
+order to store group of objects(elements) in a single entity.
+-------------------------------------------------------------------------
+Collections framework
+---------------------
+Collection <interface>
+Map <interface>
+----------------------
+
+
+Collections framework
+----------------------
+-List <interface>
+-Set <interface>
+-Queue <interface>
+
+
+------------------------------------------------------------------------
+classes provided by collections framework
+
+List interface implemented
+---------------------------
+-ArrayList
+-LinkedList
+-Vector
+-Stack
+
+Queue interface implemented
+----------------------------
+-ArrayQueue
+-PriorityQueue
+
+Set interface implemented
+----------------------------
+-HashSet
+-LinkedHashSet
+-TreeSet
+
+collections classes implemented
+-------------------------------
+-Collections
+
+Map interface implemented
+--------------------------
+-HashTable
+-HashMap
+-LinkedHashMap
+-TreeMap
+
+Waht is a List?
+-----------------
+
+Hierarchy of List interface in java?
+
+List interface:-
+
+-ArrayList
+-Vector
+-LinkedList
+-Stack
+
+implementation of ArrayList and Vector?
+How to use ArrayList?
+How to use Vector?
+Important points to remember? 
+
+Creation of a List
+Addition of elements into the List
+Retrieval of elements from the List
+Deletion of elements from the List
+Verification of elements in the List
+Updation of elements in the List
