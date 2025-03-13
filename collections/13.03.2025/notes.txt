@@ -1,0 +1,55 @@
+collection interface:-
+
+List:-
+ArrayList
+-fixed nature incr/decr size
+-are homogeneous
+-Data structure methods
+  a.sart()
+  b.search()
+  c.
+
+LinkedList
+
+Set:
+HashSet
+LinkedHashSet
+
+java proving one util package.
+combination of collection interface & map interface 
+there implementation class& utility class
+
+
+collection is interface 
+is contains all are abstract methods
+
+add()
+addAll()
+
+remove()
+removeAll()
+clear()
+
+isEmpty()
+size()
+
+al1.addAll(101);
+al1.remove("Priyanka);
+S.O.P(al1);
+al1.clear();
+S.O.P(al1);
+
+Array:
+1.Fixed Nature we cant incr/decr
+2.Array is homogeneous
+3.No Specific Data structure methods
+a.sort
+
+ 
+ C F
+
+ collection interface
+ map interface
+
+ utility class
+ collection Arrays
