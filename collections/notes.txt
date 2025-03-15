@@ -1,0 +1,12 @@
+Array - disadv/drawbacks
+
+1.Array are fixed nature.
+  once Array created we cant incr/decr size
+2.Array allowed hetrogeneous element but as can add hetrogeneous element
+  using object Array
+3.No specification data structure related method in Array
+  -sort
+  -
+
+Collections 
+------------  
