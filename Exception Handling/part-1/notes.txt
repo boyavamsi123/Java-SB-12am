@@ -1,0 +1,149 @@
+what is an Ecxeptio?
+Exception is an unwanted or unexcepted event, which occurs during the execution of a program.
+i.e. at run time, that discrupts the normal flow of the programs instructions.
+
+or 
+
+Unwanted, unexcepted event that disturb normal flow of a program is called Exception.
+It is highly recommended to handle exceptions.
+The main objective of exception handling is graceful termination of the program.
+
+default Exception handling in java :
+
+1.Name of the exception
+2.Description
+3.Localtion(Stack Trace)
+
+Exceptions 
+1.Runtime Exception
+2.Other Exception
+
+Various Methods to Print Exception Information :
+
+Throwable class defined the following methods to print Exception Information.
+
+1.PrintStackTrace()
+2.toString()
+3.getMessage()
+
+1.PrintStackTrace() :
+This method is Prints Exception Information in the following format .
+Name of the Exception: Description
+                       Stack Trace
+
+2.toString() : 
+This method prints Exception Information in the following format.
+Name of the Exception: Description
+
+3.getMessage() :
+This method prints only Description of the Exception
+ description
+
+Note: default ExceptionHandler internally use - printStack Trace() method.
+
+1) Try : To maintain Risky code
+2) Catch : To maintain Handling code 
+3) Finally : To maintain cleanup code 
+4) Throw : To hand-over an Exception object to the jvm manually.
+5) Throws : To delete the responsibility.
+
+Why are there two types?
+Checked vs Unchecked Exception 
+
+unchecked by compiler - Handling is optional
+Checked by compiler - Handling mandatory
+
+Types of Exceptions:
+--------------------
+1) User Defined Exceptions
+2) Built-In Exceptions
+
+Built-In Exception:
+-------------------
+1.Checked Exceptions 
+2.Unchecked Exceptions 
+
+Checked Exceptions:
+- ClassNotFoundException
+- InterruptedException
+- IOException
+- InstantiationException
+- SQLException
+- FileNotFoundException
+
+Unchecked Exceptions:
+- ArithmeticException
+- ClassCastException
+- NullPointerException
+- ArrayIndexOutOfBoundsException
+- ArrayStoreException
+- IllegalThreadStateException
+
+Checked Exception :
+------------------
+The Exception which are checked by compiler for smooth exception of the 
+program of Runtime are called checked Exception
+
+In case of checked exceptions, the compiler will check whether we are handling
+exceptions. if the programmer is not handling then we will get a compile time
+error.
+
+Unchecked Exception :
+---------------------
+The Exceptions which are not checked by the compiler are called unchecked
+exceptions.
+
+In the case of unchecked exceptions, the compiler won't check whether the programmer 
+is handling exceptions or not.
+
+Unchecked Exception:
+--------------------
+* ArithmeticException
+* ArrayIndexOutOfBoundsException
+* NumberFormatException
+* NullPointerException
+
+Java Application is not connected to outer resources.
+
+CheckedException:
+-----------------
+* IOException
+* FileNotFoundException
+* SQLException
+
+IOException. This Exception is related to input and output operations in 
+the java code. it happens when there is a failure during reading, writing, and 
+searching file or directory operations.
+
+IOException is a checked exception. A checked exception is handled in the java 
+code by the developer.
+
+IOException has many sub classes that are specific in nature.
+
+Few of the well known classes are :
+
+* FileNotFoundException
+* EOFException
+* SSLException
+* UnSupportedEncodingException
+* SocketException
+
+Java Application connected to outer resources. Unchecked Exception - By Compiler will uncheck.
+
+Note: whether you are handling or not handling.
+
+Handling is optional
+
+If you handle - No abnormal termination happens.
+
+unchecked by compiler
+checked by compiler - Handling mandatory
+
+--compiler will not generate. class file.
+May Text File, Database, Server 
+
+Java application - connected to another resource.
+After working with external resources we have to release them.
+If you don't want to handle it, the compiler will not allow you to run the 
+program.
+
