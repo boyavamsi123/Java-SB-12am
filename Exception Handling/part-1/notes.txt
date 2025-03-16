@@ -147,3 +147,5 @@ After working with external resources we have to release them.
 If you don't want to handle it, the compiler will not allow you to run the 
 program.
 
+By using throws keywords:
+
