@@ -13,6 +13,5 @@ class Main{
 
       System.out.println(cars.contains("Mazda"));
 
-      System.out.println(cars.remove("Volvo"));
    }
 }
