@@ -1,0 +1,87 @@
+java 8 new features :
+-------------------------------
+1.Functional Inteface      (@FT)
+2.lambda Expression / ()->{}
+3.Predefined FI :  Function, Predicate, Consumer, sluppier, 
+4.Inteface Enhances
+5.Stream API's
+6.Date & Time API
+7.Optinal class
+8.Double colon operator
+10.enum
+
+Array
+
+a. fixed in nature
+b. homogeneous
+c. no inbuilt methods to perform operation like 
+    sort()
+    shoffle()
+    search()
+
+CF :
+--------------------
+collection Inteface
+method Inteface
+utility classes
+
+
+Java 8 New Features? - conside code 
+-----------------------------------
+What is interface?
+
+public interface Circle{
+
+    //abstract methods
+    public abstract void m1();
+    public abstract void m2();
+}
+
+Functional Programming?
+
+Functional Interface?
+SAM - Single abstract method
+
+SAM - is interface which contains a SAM is called Functional Interface.
+
+how to create Functional Interface?
+
+public interface Circle{
+    public abstract void calculateArea(double radius);
+}
+
+
+Java 8 New Features
+-------------------
+Functional Inteface
+Lambda Expression
+Default Methods 
+Predefined Functional Inteface
+  a. Function BiFunction
+  b. Consumer BiConsumer 
+  c. Predicate BiPredicate
+  d. Suplier
+
+Double colon operator
+Stream API
+Date and Time API
+
+
+public interface Circle{
+    public abstract void calculateArea(double radius);
+}
+
+public class CircleImpl implements Circle{
+    public void calArea(double radius){
+        System.out.println(Math.PI*radius*radius);
+    }
+}
+
+
+what is Lambda Expression?
+
+It is expression that provide a shortcut syntax to implements the method of 
+Functional Interface.
+
+Circle c = (double radius)-> {System.out.println(Math.PI*radius*radius)}
+c.calculateArea(4);
