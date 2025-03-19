@@ -62,6 +62,8 @@ Predefined Functional Inteface
   c. Predicate BiPredicate
   d. Suplier
 
+5
+
 Double colon operator
 Stream API
 Date and Time API

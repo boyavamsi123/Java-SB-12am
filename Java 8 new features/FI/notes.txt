@@ -1,0 +1,8 @@
+FI ? to invoke Lambda Expression
+Anonymous Function/Which is nothing lambda Expression
+
+No Name
+No return type
+No modifiers
+
+Lambda Expression ? not having name, return type, modifiers;.
