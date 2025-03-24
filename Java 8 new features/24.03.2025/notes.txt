@@ -120,3 +120,52 @@ Predicate test()
 Consumer accept()
 
 Suplier get()
+
+========================================================================
+24.03.2025 - Monday
+-----------------------------------------------------------------
+List<String> enames = Arrays.asList();
+List<String> enames = new ArrayList<String>();
+----------------------------------------------
+
+Function - apply()
+
+Function<T,R> f;
+Function<List, Integer> f;
+
+f = enames -> size();
+How to execute lambda expression?
+Pre-defined User-defined
+S.O.P(f.apply(enames))
+
+-----------------------------------------------
+
+Predicate - test()
+
+excepected boolean values result
+Predicate <T> P; 
+Predicate <List> P;
+P = enames -> enames.contains("Rahul");
+S.O.P(P.test(enames))
+
+------------------------------------------------
+
+Consumer - accept
+
+Consumer<T> c;
+Consumer<List> c = enames => {iterate enames};4
+
+e.accept(enames);
+
+-------------------------------------------------
+
+Suplier - get()
+
+Suplier<R> s;
+Suplier<Integer> s;
+
+s = () -> enames.size();
+S.O.P(s.get());
+
+--------------------------------------------------
+
