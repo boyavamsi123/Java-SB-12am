@@ -1,0 +1,37 @@
+class modifiers - public final abstract strict default
+
+class method variable 
+
+top level:-
+---------
+public 
+fianl 
+abstract
+strict FP 
+
+public class A{}
+
+The main purpose is 
+1. improve the modularity
+2. provide security
+3. To resolve naming conflicts
+
+> javac -d . Test.java 
+-d - destination 
+. - current working dir
+
+A a = new A()
+
+Applicable modifiers for top-level classes :
+
+public
+default
+final
+abstract
+strictfp
+
+Test.java
+
+private class Test{}
+
+error: modifier private not allowed here
