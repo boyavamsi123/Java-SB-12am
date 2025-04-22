@@ -5,7 +5,7 @@ class method variable
 top level:-
 ---------
 public 
-fianl 
+final 
 abstract
 strict FP 
 
@@ -35,3 +35,14 @@ Test.java
 private class Test{}
 
 error: modifier private not allowed here
+
+File Name: Test.java
+Your public class name is : public class Demo{}
+error: class Demo is public, should be declared in a file named Demo.java
+
+Note : class level access modifiers are 
+public    - from any where
+default   - current package
+strictfp  
+final     
+abstract  
