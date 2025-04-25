@@ -1,0 +1,33 @@
+Data Types :-
+============
+
+1.Primitive Data Types : There are 8 built-in Primitive types in java
+
+Data Type    Size       Description
+
+byte     :  1 byte     Stores whole numbers from -128 to 127
+
+short    :  2 bytes    Whole numbers from -32,768 to 32,767
+
+int      :  4 bytes    whole numbers(commonly used)
+
+long     :  8 bytes    Large whole numbers 
+
+float    :  4 bytes    Single-precision decimal numbers 
+
+double   :  8 bytes    Double-precision decimal numbers
+
+char     :  2 bytes    Single character (Unicode)
+
+boolean  :  1 bit      Store true or false 
+
+==========================================================================
+
+2. Non-Primitive Data Types (Reference Types) : These include objects and 
+                                                can be user-defined.
+
+* String
+* Arrays
+* Classes 
+* Interfaces
+* Enums
