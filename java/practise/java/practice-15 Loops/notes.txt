@@ -1,0 +1,7 @@
+Loop statements :-
+
+for 
+while
+do-while
+for-each
+
