@@ -1,0 +1,10 @@
+super keyword in java
+The super keyworld in java is used in objeect-oriented programming to 
+refer to the parent class (superclass). It allows access to members
+(fields,methods) of the parent class.
+
+Usage of super keyword :
+
+1.Access Parent Class Method :
+=> super is used to call methods from the superclass that may be overridden
+in the subclass.
